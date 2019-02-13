@@ -1,3 +1,87 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+    font-family: Lato;
+    color: #FFFFFF;
+
+}
+
+.container, nav {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    }
+
+section {
+}
+
+.trio-menu {
+    display: inline;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    content: "*";
+    display: inline-block;
+    position: relative;
+    padding: 1px;
+    background: #2C3E50;
+    width: 17%;
+}
+
+
+/* colors */
+nav, footer {
+    background-color: #2C3E50;
+}
+
+.top {
+    background-color: #18BC9C;
+}
+
+h2 {
+    color: inherit;
+}
+.portfolio, .contact {
+    background-color: #FFFFFF;
+}
+.about {
+    background-color: #18BC9C;
+}
+
+.copy-right {
+    background-color: rgb(90, 144, 196);
+}
+
+.top h1, nav a {
+    color: #FFFFFF; 
+}
+
+/* tamanhos */
+
+.contact h2, .portfolio h1 {
+    font-size: 25px;
+    color: #2C3E50;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
