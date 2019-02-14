@@ -1,86 +1,201 @@
 body {
     font-family: Lato;
-    color: #FFFFFF;
+    margin: 0;
+    /* color: #FFFFFF; */
 
 }
 
-.container, nav {
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    }
+/* Navbar */
 
-section {
-}
-
-.trio-menu {
-    display: inline;
+.trio-menu, footer{
+  display: flex;
+  flex-direction: row;
 }
 
 nav {
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+    }
+
+    nav li {
+      border: none;
+      border-radius: 2px;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      margin: 5px;
+    }
+
+.trio-menu a, nav a, .btnDownload a {
+  padding: 5px;
+  text-decoration: none;
+
+    }
+
+
+
+
+
+section, .text-top, .top-about {
+  display: flex;
+  align-items: center;
+  background-color: #18BC9C;
+  flex-direction: column;
+  padding: 50px;
+  
 }
 
-.container-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-}
-.about {
-    display: flex;
-    flex-direction: column;
+/*segunda seção */
+
+.portfolio {
+  display: flex;
+  padding: 75px;
 }
 
-hr {
-    content: "*";
-    display: inline-block;
-    position: relative;
-    padding: 1px;
-    background: #2C3E50;
-    width: 17%;
+.colecao-portfolio {
+  display: flex;
+  flex-flow: wrap;  
+  
 }
+
+.colecao-portfolio img, footer * {
+  width: 33%;
+  height: 33%;
+  margin: 2px 2px;
+}
+
+
+
+
+.textoScnd {
+  display: flex;
+  flex-direction: column;
+}
+
+.textoScnd ul * {
+  display: flex;
+  flex-direction: row;
+}
+
+.textoScnd a {
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  
+}
+
+
+
+.portfolio hr, .portfolio hr:after, .contact hr {
+  background: #2C3E50;
+}
+
+.portfolio .fa-star, .contact .fa-star {
+ color: #2C3E50;
+}
+
 
 
 /* colors */
 nav, footer {
     background-color: #2C3E50;
+    color: #FFFFFF;
 }
 
-.top {
-    background-color: #18BC9C;
-}
 
-h2 {
-    color: inherit;
+h1, h2, .btnDownload a, .fa-download {
+    color: #FFFFFF;
 }
-.portfolio, .contact {
+.back {
     background-color: #FFFFFF;
 }
-.about {
-    background-color: #18BC9C;
+
+.contato h2 {
+  color: rgb(90, 144, 196);
+
 }
 
-.copy-right {
-    background-color: rgb(90, 144, 196);
+
+
+section h1, nav a, article {
+  display: flex;
+  font-weight: 900;
+  color: #FFFFFF; 
 }
 
-.top h1, nav a {
-    color: #FFFFFF; 
+footer article {
+  flex-direction: column;
 }
+
+
+section h1 {
+  font-size: 50px;
+}
+
 
 /* tamanhos */
 
-.contact h2, .portfolio h1 {
+.contact h2, .portfolio h1, .contato h2 {
     font-size: 25px;
     color: #2C3E50;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 ul {
     list-style: none;
 }
+
+
+.btnDownload {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+}
+
+form * {
+  border-width: 0 0 1px 0;
+}
+
+.btnSend button, nav li:hover {
+  background-color: #18BC9C; 
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 5px;
+
+}
+
+.btnSend button:hover {
+  background-color: rgb(22, 129, 108); 
+}
+
+small {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+
 
 
 
