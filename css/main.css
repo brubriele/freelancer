@@ -168,6 +168,10 @@ section h1, nav a, article {
   margin: -15px;
 }
 
+nav > div:nth-child(1) {
+  font-size: 25px;
+}
+
 
 footer * {
   width: 49%;
@@ -176,7 +180,18 @@ footer * {
 }
 
 
-section h1, .contato h1 {
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  margin: 0px;
+}
+
+
+.text-top h1 {
   font-size: 35px;
 }
 
