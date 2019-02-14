@@ -31,7 +31,7 @@ nav {
     }
 
 .trio-menu a, nav a, .btnDownload a {
-  padding: 5px;
+  padding: 15px;
   text-decoration: none;
 
     }
@@ -155,6 +155,7 @@ section h1, nav a, article {
   display: flex;
   font-weight: 900;
   color: #FFFFFF; 
+  margin: -15px;
 }
 
 footer article {
@@ -169,7 +170,7 @@ section h1 {
 
 /* tamanhos */
 
-.contact h2, .portfolio h1, .contato h2 {
+.portfolio h1, .contato h1 {
     font-size: 25px;
     color: #2C3E50;
 }
@@ -229,19 +230,20 @@ small {
 
 .star hr {
   width: 85px;
+  padding: 2px;
+  background-color: white;
   border: 1px solid white;
-  margin: 7px
-  
+  margin: 7px;
 
 }
 
 .blue hr {
   width: 85px;
   border: 1px solid #2C3E50;
+  background-color: #2C3E50;
   margin: 7px
-  
-
 }
+
  .fas {
    color: white;
  }
