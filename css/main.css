@@ -1,8 +1,15 @@
 body {
-    font-family: Lato;
-    margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
     /* color: #FFFFFF; */
+}
 
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  width: 280px;
+  margin: 25px;
 }
 
 /* Navbar */
@@ -58,32 +65,35 @@ section, .text-top, .top-about {
   
 }
 
-.colecao-portfolio img, footer * {
+.colecao-portfolio img {
+  display: flex;
   width: 33%;
   height: 33%;
   margin: 2px 2px;
 }
 
+.texto {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 
-
-.textoScnd {
+.scnd {
   display: flex;
   flex-direction: column;
 }
 
-.textoScnd ul * {
-  display: flex;
-  flex-direction: row;
-}
 
-.textoScnd a {
+
+.scnd a {
   text-decoration: none;
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  border-radius: 15px;
-  padding: 5px;
+  border-radius: 30px;
+  width: 21px;
+  padding: 7px;
   
 }
 
@@ -158,13 +168,16 @@ section h1, nav a, article {
   margin: -15px;
 }
 
-footer article {
-  flex-direction: column;
+
+footer * {
+  width: 49%;
+  display: flex;
+  margin: 2px 2px;
 }
 
 
-section h1 {
-  font-size: 50px;
+section h1, .contato h1 {
+  font-size: 35px;
 }
 
 
@@ -186,7 +199,9 @@ ul {
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  border-radius: 2px;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 20px;
 }
 
 form {
