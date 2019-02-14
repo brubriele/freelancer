@@ -97,6 +97,9 @@ section, .text-top, .top-about {
   
 }
 
+.third a{
+}
+
 /* hr star com position */
 
 /* .star {
@@ -222,7 +225,8 @@ ul {
 form {
   display: flex;
   flex-direction: column;
-  font-family: inherit;
+  font-family: Lato;
+  color: #AFAEB0;
 }
 
 form * {
