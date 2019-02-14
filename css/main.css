@@ -124,13 +124,7 @@ hr {
 
 
 
-
-
-.portfolio hr, .portfolio hr:after, .contact hr {
-  background: #2C3E50;
-}
-
-.portfolio .fa-star, .contact .fa-star {
+.portfolio .fa-star, .contato .fa-star {
  color: #2C3E50;
 }
 
@@ -230,23 +224,26 @@ small {
 
 .star {
   display: flex;
+  margin: 25px;
 }
 
 .star hr {
   width: 85px;
   border: 1px solid white;
+  margin: 7px
+  
+
+}
+
+.blue hr {
+  width: 85px;
+  border: 1px solid #2C3E50;
+  margin: 7px
   
 
 }
  .fas {
    color: white;
- }
-
- .blue {
-
-  border: 1px solid #2C3E50;
-  color: #2C3E50;
-
  }
 
 
