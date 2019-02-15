@@ -82,6 +82,8 @@ section h1, nav a, article {
 .wrap img {
   flex-basis: 33%;
   margin: 2px;
+  /*Bug - flex-basisnNão funciona no chrome sem definição de altura e largura, no Firefox funciona
+  porém, distorce com definição de tamanho, ver com Ju e Rafa */
   width: 33%;
   height: 33%;
 }
