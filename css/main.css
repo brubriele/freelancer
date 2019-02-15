@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-    /* color: #FFFFFF; */
 }
 
 p {
@@ -12,11 +11,12 @@ p {
   margin: 25px;
 }
 
-/* Navbar */
+h4 {
+  text-align: center;
+}
 
-.trio-menu, footer{
-  display: flex;
-  flex-direction: row;
+ul {
+    list-style: none;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
   padding: 25px;
     }
 
-    nav li {
+nav li {
       border: none;
       border-radius: 2px;
       color: white;
@@ -37,10 +37,17 @@ nav {
       margin: 5px;
     }
 
+
+.trio-menu, footer{
+  display: flex;
+  flex-direction: row;
+  padding-left: 85px;
+}
+
 .trio-menu a, nav a, .btnDownload a {
+  color: #FFFFFF;
   padding: 15px;
   text-decoration: none;
-
     }
 
 section, .text-top, .top-about {
@@ -49,42 +56,62 @@ section, .text-top, .top-about {
   background-color: #18BC9C;
   flex-direction: column;
   padding: 50px;
-  
 }
 
-/*segunda seção */
+.text-top h1 {
+  font-size: 35px;
+}
 
-.portfolio {
+section h1, nav a, article {
+  display: flex;
+  font-weight: 900;
+  color: #FFFFFF; 
+  margin: -15px;
+}
+
+.back {
+  background-color: #FFFFFF;
+}
+
+/* .portfolio {
   display: flex;
   padding: 60px;
+} */
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;   
 }
 
-.colecao-portfolio {
-  display: flex;
-  flex-flow: wrap;  
-  
-}
-
-.colecao-portfolio img {
-  display: flex;
+.wrap img {
+  flex-basis: 33%;
+  margin: 2px;
   width: 33%;
   height: 33%;
-  margin: 2px 2px;
 }
+
+@document url("file:///C:/Users/Bruna%20G/Desktop/Documents/Laboratoria/freelancer/index.html") { 
+  .wrap img {
+    flex-basis: 33%;
+    margin: 2px;
+  }
+}
+
+.portfolio h1, .contato h1 {
+  font-size: 25px;
+  color: #2C3E50;
+}
+
+
+.portfolio .fa-star, .contato .fa-star {
+  color: #2C3E50;
+ }
 
 .texto {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-
-.scnd {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
-
-
 
 .scnd a {
   text-decoration: none;
@@ -94,82 +121,18 @@ section, .text-top, .top-about {
   border-radius: 30px;
   width: 21px;
   padding: 7px;
-  
 }
 
-.third a{
-}
-
-/* hr star com position */
-
-/* .star {
-  display: inline-block;
-  background-color: #18BC9C;
-  padding: 5px 10px;
-  color: white;
-  position: relative;
-  top: -25px;
-}
-
-
-hr {
-  position: relative;
-  top: 91%;
-  padding: 2px;
-  background-color: white;
-  width: 160px;
-}
-
-.blue-hr {
-  background: #2C3E50;
-}
-
-.left {
-  left: 52%;
-}
-
-.right {
-  right: 52%;
-} */
-
-
-
-
-
-
-.portfolio .fa-star, .contato .fa-star {
- color: #2C3E50;
-}
-
-
-
-/* colors */
 nav, footer {
     background-color: #2C3E50;
+    padding: 10px;
+}
+
+
+h1, h2, .fa-download, footer {
     color: #FFFFFF;
 }
 
-
-h1, h2, .btnDownload a, .fa-download {
-    color: #FFFFFF;
-}
-.back {
-    background-color: #FFFFFF;
-}
-
-.contato h2 {
-  color: rgb(90, 144, 196);
-
-}
-
-
-
-section h1, nav a, article {
-  display: flex;
-  font-weight: 900;
-  color: #FFFFFF; 
-  margin: -15px;
-}
 
 nav > div:nth-child(1) {
   font-size: 25px;
@@ -187,31 +150,6 @@ footer a {
   text-decoration: none;
   color: white;
 }
-
-h4 {
-  text-align: center;
-  margin: 20px;
-}
-
-
-.text-top h1 {
-  font-size: 35px;
-}
-
-
-/* tamanhos */
-
-.portfolio h1, .contato h1 {
-    font-size: 25px;
-    color: #2C3E50;
-}
-
-
-
-ul {
-    list-style: none;
-}
-
 
 .btnDownload {
   border-style: solid;
@@ -281,6 +219,8 @@ small {
  .fas {
    color: white;
  }
+
+
 
 
 
