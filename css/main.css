@@ -73,10 +73,6 @@ section h1, nav a, article {
   background-color: #FFFFFF;
 }
 
-/* .portfolio {
-  display: flex;
-  padding: 60px;
-} */
 
 .wrap {
   display: flex;
@@ -90,12 +86,7 @@ section h1, nav a, article {
   height: 33%;
 }
 
-@document url("file:///C:/Users/Bruna%20G/Desktop/Documents/Laboratoria/freelancer/index.html") { 
-  .wrap img {
-    flex-basis: 33%;
-    margin: 2px;
-  }
-}
+
 
 .portfolio h1, .contato h1 {
   font-size: 25px;
