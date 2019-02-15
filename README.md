@@ -2,7 +2,7 @@
 
 ## Objetivos propostos
 
-Projeto apresentado ao Bootcamp Laboratoria em 15-02-2018. O objetivo do desafio consiste numa réplica estática da página Freelancer a partir de um repositório boilerplate com as fontes para construção da página em HTML e CSS.
+Projeto apresentado ao Bootcamp Laboratoria em 15-02-2019. O objetivo do desafio consiste numa réplica estática da página Freelancer a partir de um repositório boilerplate com as fontes para construção da página em HTML e CSS.
 
 O resultado desejado para a réplica do site **Freelancer** e é este:
 
