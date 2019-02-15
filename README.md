@@ -10,5 +10,5 @@ O resultado desejado para a réplica do site **Freelancer** e é este:
 
 ## Objetivos atingidos
 
-Sendo este o resultado final obtido ao final do desafio [Freelancer GitHub Pages](https://blackrockdigital.github.io/startbootstrap-freelancer/).
+Sendo este o resultado final obtido ao final do desafio [Freelancer GitHub Pages](https://brubriele.github.io/freelancer/).
 
